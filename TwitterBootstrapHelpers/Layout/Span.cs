@@ -17,6 +17,7 @@ namespace TwitterBootstrapHelpers.Layout
         public Span(ViewContext viewContext, int spanWidth, int? offset)
             : base("div", viewContext)
         {
+            SpanWidth = spanWidth;
             Offset = offset;
         }
 
